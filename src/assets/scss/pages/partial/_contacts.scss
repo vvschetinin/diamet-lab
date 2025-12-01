@@ -1,0 +1,55 @@
+@use "@scss/abstract/index";
+
+.our-contacts {
+  height: auto;
+  padding: 0 0 3rem 0;
+  @include index.minMedia(1100px) {
+    padding: 3rem 0;
+  }
+}
+
+.contact-list {
+  li {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.35;
+    span {
+      display: block;
+      position: relative;
+      font-size: 17px;
+      font-weight: 300;
+      padding-left: 1.5rem;
+      @include index.minMedia(550px) {
+        font-size: 18px;
+      }
+      &:first-child {
+        margin-top: 1rem;
+      }
+      & + span {
+        margin-top: 0.5rem;
+      }
+    }
+    & + li {
+      margin-top: 1rem;
+    }
+    a {
+      color: #111;
+      transition: all 0.25s ease;
+      &:hover {
+        color: #aa272f;
+      }
+    }
+  }
+}
+
+.map-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 400px;
+  background-color: azure;
+  span {
+    display: inline-block;
+  }
+}
