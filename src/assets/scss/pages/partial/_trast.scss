@@ -1,5 +1,28 @@
 @use "@scss/abstract/index";
 
+.addnow {
+  margin-top: 2rem;
+  li {
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 300;
+    span {
+      display: block;
+    }
+    @include index.minMedia(550px) {
+      font-size: 18px;
+    }
+    @include index.minMedia(800px) {
+      font-size: 22px;
+      line-height: 1.35;
+    }
+    & + li {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
 .trast-discription {
   padding: 2rem 0;
   color: #fff;
