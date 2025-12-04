@@ -60,6 +60,9 @@
   line-height: 110%;
   text-transform: uppercase;
   @include index.minMedia(800px) {
+    font-size: 22px;
+  }
+  @include index.minMedia(1400px) {
     font-size: 25px;
   }
   @media (max-height: 450px) and (orientation: landscape) {
