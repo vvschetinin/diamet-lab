@@ -60,7 +60,7 @@ ul {
   background: var(--color-theme-body);
   transition: all 0.4s cubic-bezier(0.16, 0.43, 0, 1);
   &.forfixed {
-    padding-top: 120px;
+    padding-top: 100px;
     // min-height: 3200px;
   }
 }

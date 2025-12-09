@@ -18,6 +18,10 @@
   background: var(--color-theme-type);
 }
 
+.bg-accent{
+  background: var(--color-theme-accent);
+}
+
 .visual-bg {
   position: relative;
   &:before {
