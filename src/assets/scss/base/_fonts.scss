@@ -44,4 +44,39 @@
   font-display: swap;
 }
 
+// ===================== Fonts Unbounded ====================
 
+@font-face {
+  font-family: "Unbounded";
+  src: url("/assets/fonts/unbounded/static/Unbounded-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Unbounded";
+  src: url("/assets/fonts/unbounded/static/Unbounded-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Unbounded";
+  src: url("/assets/fonts/unbounded/static/Unbounded-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Unbounded";
+  src: url("/assets/fonts/unbounded/static/Unbounded-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Unbounded";
+  src: url("/assets/fonts/unbounded/static/Unbounded-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-display: swap;
+}
