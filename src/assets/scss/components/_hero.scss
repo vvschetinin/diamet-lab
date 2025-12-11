@@ -51,10 +51,13 @@
   }
   .subtitle {
     margin-top: 2rem;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 300;
     text-transform: uppercase;
     color: #aa272f;
+    @include index.minMedia(550px) {
+      font-size: 32px;
+    }
     @include index.minMedia(1100px) {
       font-size: calc(45px * 0.75);
     }

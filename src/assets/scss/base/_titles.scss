@@ -25,13 +25,13 @@
     display: block;
     padding-top: 0.7rem;
     color: #b1b0b0;
-    font-size: calc(30px * 0.8);
+    font-size: calc(35px * 0.8);
     line-height: 1;
     @include index.minMedia(800px) {
-      font-size: calc(30px * 0.8);
+      font-size: calc(40px * 0.8);
     }
     @include index.minMedia(1100px) {
-      font-size: calc(35px * 0.8);
+      font-size: calc(40px * 0.8);
     }
     @include index.minMedia(1400px) {
       font-size: calc(45px * 0.8);
@@ -70,7 +70,7 @@
   }
 }
 
-.h1-inner {
+.h2-contact {
   font-family: "SourceSansPro", sans-serif;
   font-size: 35px;
   font-weight: 300;
@@ -100,3 +100,5 @@
     }
   }
 }
+
+// =====================================
