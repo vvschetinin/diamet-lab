@@ -42,6 +42,23 @@
   }
 }
 
+.linkwrap{
+  a{
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #aa272f;
+    transition: all 0.25s ease;
+    @include index.minMedia(550px) {
+      font-size: 30px;
+    }
+    &:hover {
+      color: #111;
+    }
+  }
+}
+
 .map-wrapper {
   display: flex;
   justify-content: center;

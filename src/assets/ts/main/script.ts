@@ -33,7 +33,7 @@ window.addEventListener("scroll", (): void => {
   }
 });
 
-// =========================================== //
+// ===================== Выравнивание высоты блоков ====================== //
 
 function equalizeCardContentHeights(containerSelector: string = ".row", cardContentSelector: string = ".card-content"): void {
   const rows = document.querySelectorAll(containerSelector);
