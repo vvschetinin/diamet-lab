@@ -2,9 +2,9 @@
 
 .our-contacts {
   height: auto;
-  padding: 0 0 3rem 0;
+  padding: 0 0 2rem 0;
   @include index.minMedia(1100px) {
-    padding: 3rem 0;
+    padding: 0 0 3rem 0;
   }
 }
 
@@ -162,7 +162,7 @@
     }
   }
   .map-wrapper{
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     min-height: 500px;
   }
 }
