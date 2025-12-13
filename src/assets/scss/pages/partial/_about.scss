@@ -47,4 +47,19 @@
       color: #aa272f;
     }
   }
+  a {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #aa272f;
+    transition: all .2s ease;
+    @include index.minMedia(550px) {
+      font-size: 18px;
+    }
+    @include index.minMedia(800px) {
+      font-size: 22px;
+      line-height: 1.35;
+    }
+  }
 }
